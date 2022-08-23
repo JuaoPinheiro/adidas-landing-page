@@ -11,13 +11,15 @@ import { FiTruck } from "react-icons/fi";
 
 
 
-export const Container = styled.div``
+export const Container = styled.div`
+    width: auto;
+`
 
 export const Headerzinho = styled.div`
 
     background: black;
     display: flex;
-    width: 100%;
+    width: auto;
     height: 50px; 
     gap: 9px;
 
@@ -30,10 +32,10 @@ export const Headerzinho = styled.div`
 
     h6{
         color: white;
-        font-size: 14px;
+        font-size: 12px;
         margin-top: 18px;
         margin-right: 60px;
-
+        white-space: nowrap; 
     }
 
 `
@@ -44,7 +46,7 @@ export const FiiTruck = styled(FiTruck)`
     margin-right: 5px;
     width: 25px;
     height: 25px;
-
+    white-space: nowrap; 
 `
 
 export const H6header = styled.h6`
@@ -128,7 +130,7 @@ export const Bag = styled(RiShoppingBag2Line)`
 export const Section = styled.div`
     img{
         position: absolute;
-        width: 100%;
+        width: auto;
     }
 
     h1{
@@ -178,9 +180,10 @@ export const Section = styled.div`
 `
 
 export const Section2 = styled.div`
+
  img{
         position: absolute;
-        width: 100%;
+        width: auto;
         margin-top: 630px;
     }
 
@@ -241,6 +244,7 @@ export const Tendences = styled.div`
 `
 
 export const DivVD = styled.div`
+    white-space: nowrap;  
      width: auto;
      display: flex;
      margin-top: 20px;
@@ -265,6 +269,7 @@ export const Hoz = styled.h4``
 export const Morty = styled.h4``
 export const Messin = styled.h4``
 export const Celu = styled.h4``
+
 export const DivCelu = styled.div`
     display: flex;
     width: auto;
@@ -272,6 +277,7 @@ export const DivCelu = styled.div`
     position: absolute;
     margin-left: 25px;
     margin-top: 13px;
+    white-space: nowrap;  
 
     p{
         margin-top: 10px;
@@ -347,6 +353,7 @@ export const DivOz = styled.div`
     position: absolute;
     margin-left: 1290px;
     margin-top: 13px;
+    white-space: nowrap;  
 
      p{
         margin-top: 10px;
@@ -366,6 +373,7 @@ export const DivOz = styled.div`
 `
 
 export const ContainerBeach = styled.div`
+    white-space: nowrap;  
     img{
         position: absolute;
         margin-top: 200px;
@@ -412,14 +420,15 @@ export const ContainerBeach = styled.div`
     
 `
 export const Shoes = styled.div`
-    margin-left: 25px;
+    margin-left: 80px;
 
      h1{
-        margin-top: 950px;
+        margin-top: 1000px;
         margin-bottom: 25px;
     }
 `
 export const DivShoes = styled.div`
+    white-space: nowrap;    
     img{
         width: 400px;
         height: 500px;
@@ -437,6 +446,7 @@ export const DivConfor = styled.div`
     position: absolute;
     margin-left: 8px;
     margin-top: 13px;
+    white-space: nowrap; 
 
     p{
         margin-top: 10px;
@@ -520,6 +530,7 @@ export const DivSup = styled.div`
     position: absolute;
     margin-left: 1258px;
     margin-top: 13px;
+    white-space: nowrap; 
 
     p{
         margin-top: 10px;
@@ -550,9 +561,10 @@ export const Sup = styled.div`
 
 export const SectionLuva = styled.div`
     margin-top: 200px;
+    white-space: nowrap;  
      img{
         position: absolute;
-        width: 100%;
+        width: auto;
     }
 
     h1{
@@ -627,7 +639,7 @@ export const Button = styled.button`
     `
 export const SectionCategory = styled.div`
     margin-left: 30px;
-
+    white-space: nowrap; 
     img{
         width: 370px;
         height: 370px;
@@ -678,7 +690,7 @@ export const ShoeWhite = styled.div`
     margin-top: 150px;
      img{
         position: absolute;
-        width: 100%;
+        width: auto;
     }
 
     h1{
@@ -722,10 +734,9 @@ export const ShoeWhite = styled.div`
 `
 
 export const Manchester = styled.div`
-
     h1{
         font-weight: 900;
-        margin-top: 900px;
+        margin-top: 1000px;
         font-size: 45px;
         padding-top: 150px;
         padding-left: 40px;
@@ -735,7 +746,7 @@ export const Manchester = styled.div`
 
     p{
         padding-left: 40px;
-        margin-top: 1170px;
+        margin-top: 1275px;
         font-size: 20px;
         position: absolute;
         color: #000000;
@@ -744,7 +755,7 @@ export const Manchester = styled.div`
     button{
         color: white;
         position: absolute;
-        margin-top: 1250px;
+        margin-top: 1350px;
         background-image: url('${ArrowWhite}');
         background-repeat: no-repeat;
         background-size: 30px 30px;
@@ -772,26 +783,28 @@ export const Manchester = styled.div`
 
 export const ImageManchester = styled.img`
         position: absolute;
-        width: 100%;
-        margin-top: 748px;
+        width: auto;
+        margin-top: 840px;
 `
 
 export const LogoManche = styled.img`
     position: absolute;
-    margin-top: 920px;
+    margin-top: 1000px;
     margin-left: 40px;
 `
 
 export const Colabs = styled.div`
-    width: 100%;
+    width: auto;
     height: 300px;
-    margin-top: 2240px;
+    margin-top: 2535px;
     background: black;
     color: white;
+    white-space: nowrap; 
 
     h3{
         padding-top: 100px;
         text-align: center;
+        white-space: nowrap; 
     }
 `
 
@@ -800,7 +813,7 @@ export const ContainerPharrel = styled.div`
         color: white;
         font-weight: 900;
         font-size: 45px;
-        padding-top: 1715px;
+        padding-top: 1965px;
         padding-left: 40px;
         position: absolute;
     }
@@ -810,7 +823,7 @@ export const ContainerPharrel = styled.div`
         padding-left: 44px;
         font-size: 20px;
         position: absolute;
-        margin-top: 1832px;
+        margin-top: 2090px;
 
     }   
 
@@ -820,7 +833,7 @@ export const ContainerPharrel = styled.div`
         background-repeat: no-repeat;
         background-size: 30px 30px;
         background-position: 94% 50%;
-        margin-top: 1940px;
+        margin-top: 2200px;
         margin-left: 40px;
         width: 250px;
         height: 60px;
@@ -842,13 +855,13 @@ export const ContainerPharrel = styled.div`
 `
 export const IMGPharrel = styled.img`
     position: absolute;
-    margin-top: 1600px;
+    margin-top: 1830px;
     margin-left: 40px;
 `
 export const BGPharrel = styled.img`
         position: absolute;
-        width: 100%;
-        margin-top: 1489px;
+        width: auto;
+        margin-top: 1692px;
     
 `
 export const TendencesFinish = styled.div`
@@ -858,6 +871,7 @@ export const DivFinish = styled.div`
     width: auto;
      display: flex;
      margin-top: 20px;
+     white-space: nowrap;  
 
     video{
         width: 500px;
@@ -905,6 +919,8 @@ export const DivStar = styled.div`
     position: absolute;
     margin-left: 445px;
     margin-top: 13px;
+    white-space: nowrap; 
+
 
     p{
         margin-top: 10px;
@@ -931,6 +947,8 @@ export const DivDisneyimg = styled.div`
     flex-direction: column;
     margin-left: 865px;
     margin-top: 13px;
+    white-space: nowrap; 
+
 
     p{
         margin-top: 10px;
@@ -957,6 +975,8 @@ export const DivDisney = styled.div`
     position: absolute;
     margin-left: 1290px;
     margin-top: 13px;
+    white-space: nowrap; 
+
 
      p{
         margin-top: 10px;
@@ -981,12 +1001,13 @@ export const Star = styled.h4``
 export const Ninja = styled.h4``
 
 export const Descubra = styled.div`
-    width: 100%;
+    width: auto;
     height: 300px;
     margin-top: 200px;
     background: black;
     color: white;
     text-align: center;
+    white-space: nowrap; 
 
     h1{
         padding-top: 60px;
@@ -1012,14 +1033,18 @@ export const DivFooter = styled.div`
     margin-left: 450px;
     margin-top: 100px;
     margin-bottom: 100px;
+    white-space: nowrap; 
+    width: auto;
 
 `
 
 export const Footerzinho = styled.div`
     background-color: #ede734;
-    width: 100%;
+    width: auto;
     height: 145px;
     margin-bottom: 200px;
+    white-space: nowrap; 
+
 
     button{
         position: absolute;
