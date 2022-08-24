@@ -1186,6 +1186,7 @@ export const Finish = styled.div`
     height: 200px;
     margin-top: 800px;
     display: flex;
+    white-space: nowrap;  
    
 
     p{
@@ -1206,6 +1207,7 @@ export const FinishFooter = styled.div`
     display: block;
     margin-top: 120px;
     margin-left: 320px;
+    white-space: nowrap;  
     
 
 `
