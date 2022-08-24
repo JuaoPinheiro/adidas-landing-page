@@ -375,7 +375,7 @@ export const ContainerBeach = styled.div`
     img{
         position: absolute;
         margin-top: 200px;
-        width: 100%;
+        width: 1920px;
     }
 
     h1{
@@ -613,12 +613,15 @@ export const SectionLuva = styled.div`
 
 export const ContainerPopular = styled.div`
     margin-top: 1250px;
-    text-align: center;
+    margin-left: 400px;
+    white-space: nowrap; 
     margin-bottom: 100px;
+    width: auto;
 
     h1{
         font-size: 40px;
         margin-bottom: 30px;
+        margin-left: 400px;
     }
 `
 export const Button = styled.button`
