@@ -1019,7 +1019,8 @@ export const Star = styled.h4``
 export const Ninja = styled.h4``
 
 export const Descubra = styled.div`
-    width: auto;
+    width: 100vw;
+    min-width: 1920px;
     height: 300px;
     margin-top: 200px;
     background: black;
@@ -1058,7 +1059,8 @@ export const DivFooter = styled.div`
 
 export const Footerzinho = styled.div`
     background-color: #ede734;
-    width: auto;
+    width: 100vw;
+    min-width: 1920px;
     height: 145px;
     margin-bottom: 200px;
     white-space: nowrap; 
@@ -1201,6 +1203,8 @@ export const FinishFooter = styled.div`
     display: block;
     margin-top: 120px;
     margin-left: 320px;
+    width: 100vw;
+    min-width: 1920px;
 
 `
 
