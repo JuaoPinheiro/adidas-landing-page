@@ -193,7 +193,7 @@ export const Section2 = styled.div`
         position: absolute;
         width: auto;
         min-width: 100%;
-        margin-top: 868px;
+        margin-top: 855px;
     }
 
     h1{
@@ -809,7 +809,8 @@ export const LogoManche = styled.img`
 `
 
 export const Colabs = styled.div`
-    width: auto;
+    width: 100vw;
+    min-width: 1920px;
     height: 300px;
     margin-top: 2535px;
     background: black;
