@@ -1179,7 +1179,8 @@ export const ContainerFooter4 = styled.div`
 export const Footer = styled.div``
 export const Finish = styled.div`
     background-color: #363738;
-    width: 100%;
+    width: 100vw;
+    min-width: 1920px;
     height: 200px;
     margin-top: 800px;
     display: flex;
@@ -1203,8 +1204,7 @@ export const FinishFooter = styled.div`
     display: block;
     margin-top: 120px;
     margin-left: 320px;
-    width: 100vw;
-    min-width: 1920px;
+    
 
 `
 
