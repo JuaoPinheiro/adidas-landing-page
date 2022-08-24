@@ -193,7 +193,7 @@ export const Section2 = styled.div`
         position: absolute;
         width: auto;
         min-width: 100%;
-        margin-top: 885px;
+        margin-top: 895px;
     }
 
     h1{
