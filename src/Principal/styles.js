@@ -21,13 +21,13 @@ export const Headerzinho = styled.div`
     width: 100vw;
     min-width: 1920px;
     height: 50px; 
-    gap: 9px;
+    gap: 10px;
 
     img{
         width: auto;
         height: 25px;
         margin-top: 15px;
-        margin-left: 150px;
+        margin-left: 200px;
     }
 
     h6{
@@ -395,7 +395,7 @@ export const ContainerBeach = styled.div`
         margin-top: 300px;
         text-align: center;
         color: #ffffff;
-        margin-left: 470px;
+        margin-left: 480px;
         font-weight: bolder;
         font-size: 40px;
     }
@@ -409,7 +409,7 @@ export const ContainerBeach = styled.div`
         background-size: 30px 30px;
         background-position: 85% 50%;
         background-color: black;
-        margin-left: 840px;
+        margin-left: 850px;
         width: 200px;
         height: 60px;
         border: 3px solid #ffffff;
@@ -1191,7 +1191,7 @@ export const Finish = styled.div`
 
     p{
         display: block;
-        margin-left: 80px;
+        margin-left: 100px;
         margin-top: 30px;
         color: #c8cbcc;
         font-size: 12px;
@@ -1206,7 +1206,7 @@ export const FinishFooter = styled.div`
     position: absolute;
     display: block;
     margin-top: 120px;
-    margin-left: 320px;
+    margin-left: 350px;
     white-space: nowrap;  
     
 
