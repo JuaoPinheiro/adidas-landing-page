@@ -302,8 +302,8 @@ function App() {
         <DivFinish>
           <video src={Kawa} loop autoPlay muted />
           <video src={Wars} loop autoPlay muted />
-          <img src={DisneyI} alt='disney-image' />
           <video src={DisneyV} loop autoPlay muted />
+          <img src={DisneyI} alt='disney-image' />
         </DivFinish>
 
         <TextFinish>
@@ -319,17 +319,17 @@ function App() {
             <a href='#'>COMPRAR AGORA</a>
           </DivStar>
 
-          <DivDisneyimg>
-            <DI>REALIZANDO SONHOS</DI>
-            <p>Imagine que seus sonhos estão<br />destinados a ser realizados, é só correr<br />atrás deles com a coleção Bambi.</p>
-            <a href='#'>COMPRAR AGORA</a>
-          </DivDisneyimg>
-
           <DivDisney>
             <Disney>LIDERE O BANDO</Disney>
             <p>Coleção Rei Leão da Disney</p>
             <a href='#'>COMPRAR AGORA</a>
           </DivDisney>
+
+          <DivDisneyimg>
+            <DI>REALIZANDO SONHOS</DI>
+            <p>Imagine que seus sonhos estão<br />destinados a ser realizados, é só correr<br />atrás deles com a coleção Bambi.</p>
+            <a href='#'>COMPRAR AGORA</a>
+          </DivDisneyimg>
         </TextFinish>
       </TendencesFinish>
 

@@ -236,6 +236,8 @@ export const Section2 = styled.div`
 `
 
 export const Tendences = styled.div`
+    margin-left: 55px;
+    padding-top: 100px;
     h1{
         margin-top: 1450px;
         margin-left: 20px;
@@ -245,17 +247,13 @@ export const Tendences = styled.div`
 
 export const DivVD = styled.div`
     white-space: nowrap;  
-     width: auto;
-     display: flex;
-     margin-top: 20px;
+    width: auto;
+    margin-top: 20px;
 
     video{
         width: 500px;
         height: 500px;
-    }
-
-    h4{
-        display: block;
+        margin-left: -68px;
     }
 
 `
@@ -385,7 +383,7 @@ export const ContainerBeach = styled.div`
         margin-top: 300px;
         text-align: center;
         color: #ffffff;
-        margin-left: 400px;
+        margin-left: 450px;
         font-weight: bolder;
         font-size: 40px;
     }
@@ -399,7 +397,7 @@ export const ContainerBeach = styled.div`
         background-size: 30px 30px;
         background-position: 85% 50%;
         background-color: black;
-        margin-left: 740px;
+        margin-left: 780px;
         width: 200px;
         height: 60px;
         border: 3px solid #ffffff;
@@ -420,7 +418,7 @@ export const ContainerBeach = styled.div`
     
 `
 export const Shoes = styled.div`
-    margin-left: 80px;
+    margin-left: 58px;
 
      h1{
         margin-top: 1000px;
@@ -643,13 +641,13 @@ export const SectionCategory = styled.div`
     img{
         width: 370px;
         height: 370px;
-        margin-left: 30px;
+        margin-left: 50px;
     }
 `
 export const TextCategory = styled.div``
 export const H3shoe = styled.h3`
        position: absolute;
-       margin-left: 68px;
+       margin-left: 88px;
        cursor: pointer;
 
        &:hover{
@@ -658,7 +656,7 @@ export const H3shoe = styled.h3`
 `
 export const H3corta = styled.h3`
         position: absolute;
-        margin-left: 468px;
+        margin-left: 500px;
         cursor: pointer;
 
         &:hover{
@@ -667,7 +665,7 @@ export const H3corta = styled.h3`
 `
 export const H3fla = styled.h3`
         position: absolute;
-        margin-left: 868px;
+        margin-left: 923px;
         cursor: pointer;
 
         &:hover{
@@ -677,7 +675,7 @@ export const H3fla = styled.h3`
 `
 export const H3poche = styled.h3`
         position: absolute;
-        margin-left: 1268px;
+        margin-left: 1342px;
         cursor: pointer;
 
         &:hover{
@@ -866,26 +864,28 @@ export const BGPharrel = styled.img`
 `
 export const TendencesFinish = styled.div`
     margin-top: 100px;
+    margin-left: 55px;
 `
 export const DivFinish = styled.div`
+    white-space: nowrap;
     width: auto;
-     display: flex;
-     margin-top: 20px;
-     white-space: nowrap;  
+    margin-top: 20px;
 
     video{
         width: 500px;
         height: 500px;
+        margin-left: -68px;
     }
 
     img{
-        width: 500px;
+        width: 350px;
         height: 500px;
+        margin-left: -18px;
     }
 `
 export const TextFinish = styled.div`
      display: flex;
-     gap: 200px;
+     gap: 150px;
 `
 export const DivNinja = styled.div`
      display: flex;
@@ -945,7 +945,7 @@ export const DivDisneyimg = styled.div`
     position: absolute;
     width: auto;
     flex-direction: column;
-    margin-left: 865px;
+    margin-left: 1290px;
     margin-top: 13px;
     white-space: nowrap; 
 
@@ -973,7 +973,7 @@ export const DivDisney = styled.div`
     width: auto;
     flex-direction: column;
     position: absolute;
-    margin-left: 1290px;
+    margin-left: 865px;
     margin-top: 13px;
     white-space: nowrap; 
 
