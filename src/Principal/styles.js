@@ -382,6 +382,8 @@ export const DivOz = styled.div`
 
 export const ContainerBeach = styled.div`
     white-space: nowrap;  
+    width: 100vw;
+    min-width: 1920px;
     img{
         position: absolute;
         margin-top: 200px;
@@ -393,7 +395,7 @@ export const ContainerBeach = styled.div`
         margin-top: 300px;
         text-align: center;
         color: #ffffff;
-        margin-left: 450px;
+        margin-left: 470px;
         font-weight: bolder;
         font-size: 40px;
     }
@@ -407,7 +409,7 @@ export const ContainerBeach = styled.div`
         background-size: 30px 30px;
         background-position: 85% 50%;
         background-color: black;
-        margin-left: 780px;
+        margin-left: 840px;
         width: 200px;
         height: 60px;
         border: 3px solid #ffffff;
@@ -1188,7 +1190,7 @@ export const Finish = styled.div`
 
     p{
         display: block;
-        margin-left: 50px;
+        margin-left: 80px;
         margin-top: 30px;
         color: #c8cbcc;
         font-size: 12px;
