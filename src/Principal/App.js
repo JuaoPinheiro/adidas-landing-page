@@ -78,7 +78,7 @@ import {
 } from './styles'
 import Logo from '../assets/logo.png'
 import Loguinho from '../assets/logo-branco.png'
-import Voltan from '../assets/voltan.webp'
+import Desert from '../assets/desert.webp'
 import Daniel from '../assets/daniel.jpg'
 import Phone from '../assets/cellphone.mp4'
 import Messi from '../assets//messi.mp4'
@@ -148,10 +148,10 @@ function App() {
       </Header>
 
       <Section>
-        <img src={Voltan} alt='foto-voltan' />
-        <h1>O CONFORTO ABRE <br /> ESPAÇO PARA <br /> POSSIBILIDADES</h1>
-        <p>É hora de se sentir confortável por dentro e por<br />fora.</p>
-        <button>COMPRAR AGORA</button>
+        <img src={Desert} alt='foto-voltan' />
+        <h1>BAD NUNNY`S FORUM<br/>BLUE</h1>
+        <p>A ilha está chamando. Cadastre-se agora no<br/> CONFIRMED. Sorteio em 27 de agosto.</p>
+        <button>EXPLORAR MAIS</button>
       </Section>
 
       <Section2>

@@ -12,25 +12,26 @@ import { FiTruck } from "react-icons/fi";
 
 
 export const Container = styled.div`
-    width: auto;
 `
 
 export const Headerzinho = styled.div`
 
     background: black;
     display: flex;
-    width: auto;
+    width: 100vw;
+    min-width: 1920px;
     height: 50px; 
     gap: 9px;
 
     img{
-        width: 35px;
+        width: auto;
         height: 25px;
         margin-top: 15px;
         margin-left: 150px;
     }
 
     h6{
+        width: auto;
         color: white;
         font-size: 12px;
         margin-top: 18px;
@@ -57,6 +58,7 @@ export const H6header = styled.h6`
 export const Header = styled.div`
        display: flex;
        gap: 30px;
+       width: auto;
         img{
             width: 80px;
             height: 80px;
@@ -128,26 +130,31 @@ export const Bag = styled(RiShoppingBag2Line)`
 `
 
 export const Section = styled.div`
+   
+
     img{
         position: absolute;
         width: auto;
+        min-width: 100%;
     }
 
     h1{
         color: white;
         font-weight: 900;
         font-size: 45px;
-        padding-top: 150px;
-        padding-left: 40px;
+        padding-top: 285px;
+        padding-left: 120px;
         position: absolute;
+        white-space: nowrap;
     }
 
     p{
         color: #ffffff;
-        padding-left: 40px;
+        padding-left: 120px;
         font-size: 20px;
         position: absolute;
-        margin-top: 320px;
+        margin-top: 400px;
+        white-space: nowrap;
 
     }
 
@@ -157,8 +164,9 @@ export const Section = styled.div`
         background-repeat: no-repeat;
         background-size: 30px 30px;
         background-position: 94% 50%;
-        margin-top: 400px;
-        margin-left: 40px;
+        margin-top: 468px;
+        white-space: nowrap;
+        margin-left: 120px;
         width: 250px;
         height: 60px;
         border: none;
@@ -184,12 +192,13 @@ export const Section2 = styled.div`
  img{
         position: absolute;
         width: auto;
-        margin-top: 630px;
+        min-width: 100%;
+        margin-top: 885px;
     }
 
     h1{
         font-weight: 900;
-        margin-top: 730px;
+        margin-top: 1100px;
         font-size: 45px;
         padding-top: 150px;
         padding-left: 40px;
@@ -199,7 +208,7 @@ export const Section2 = styled.div`
 
     p{
         padding-left: 40px;
-        margin-top: 950px;
+        margin-top: 1320px;
         font-size: 20px;
         position: absolute;
         color: #000000;
@@ -207,7 +216,7 @@ export const Section2 = styled.div`
 
     button{
         color: white;
-        margin-top: 1030px;
+        margin-top: 1400px;
         background-image: url('${ArrowWhite}');
         background-repeat: no-repeat;
         background-size: 30px 30px;
@@ -236,10 +245,10 @@ export const Section2 = styled.div`
 `
 
 export const Tendences = styled.div`
-    margin-left: 55px;
+    margin-left: 60px;
     padding-top: 100px;
     h1{
-        margin-top: 1450px;
+        margin-top: 1750px;
         margin-left: 20px;
     }
 
@@ -326,6 +335,7 @@ export const DivMorty = styled.div`
     flex-direction: column;
     margin-left: 865px;
     margin-top: 13px;
+    white-space: nowrap;
 
     p{
         margin-top: 10px;
@@ -359,7 +369,7 @@ export const DivOz = styled.div`
 
     a{
         color: black;
-        margin-top: 50px;
+        margin-top: 70px;
         font-weight: bolder;
         font-size: 20px;
         
@@ -419,6 +429,8 @@ export const ContainerBeach = styled.div`
 `
 export const Shoes = styled.div`
     margin-left: 58px;
+    width: auto;
+    min-width: 100%;
 
      h1{
         margin-top: 1000px;
@@ -504,6 +516,7 @@ export const DivLeve = styled.div`
     flex-direction: column;
     margin-left: 835px;
     margin-top: 13px;
+    white-space: nowrap;
 
     p{
         margin-top: 10px;
@@ -563,6 +576,7 @@ export const SectionLuva = styled.div`
      img{
         position: absolute;
         width: auto;
+        min-width: 100%;
     }
 
     h1{
