@@ -385,6 +385,7 @@ export const ContainerBeach = styled.div`
     min-width: 1920px;
     img{
         position: absolute;
+        min-width: 100%;
         margin-top: 200px;
         width: 1920px;
     }
@@ -707,6 +708,7 @@ export const ShoeWhite = styled.div`
      img{
         position: absolute;
         width: auto;
+        min-width: 100%;
     }
 
     h1{
@@ -798,8 +800,9 @@ export const Manchester = styled.div`
 `
 
 export const ImageManchester = styled.img`
-        position: absolute;
+         position: absolute;
         width: auto;
+        min-width: 100%;
         margin-top: 840px;
 `
 
@@ -876,8 +879,9 @@ export const IMGPharrel = styled.img`
     margin-left: 40px;
 `
 export const BGPharrel = styled.img`
-        position: absolute;
+         position: absolute;
         width: auto;
+        min-width: 100%;
         margin-top: 1692px;
     
 `
