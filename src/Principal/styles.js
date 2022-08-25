@@ -133,7 +133,6 @@ export const Bag = styled(RiShoppingBag2Line)`
 `
 
 export const Section = styled.div`
-   
 
     img{
         position: absolute;
