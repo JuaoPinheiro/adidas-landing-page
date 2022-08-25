@@ -243,7 +243,7 @@ function App() {
 
       <ContainerBeach>
         <img src={Beach} alt='beach' />
-        <h1>PROTEGER OS OCEANOS É A NOSSA<br /> PRIORIDADE. ISTO É MAIOR DO QUE O ESPORTE.<br /> ISTO É PARA O NOSSO FUTURO.</h1>
+        <h1>PROTEGER OS OCEANOS É A NOSSA PRIORIDADE. ISTO É<br/> MAIOR DO QUE O ESPORTE. ISTO É PARA O NOSSO FUTURO.</h1>
         <button>SAIBA MAIS</button>
         <img src={Colored} alt='color' className='ImageBeach' />
       </ContainerBeach>

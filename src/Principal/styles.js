@@ -396,24 +396,26 @@ export const ContainerBeach = styled.div`
 
     h1{
         position: absolute;
-        margin-top: 300px;
-        text-align: center;
+        margin-top: 350px;
         color: #ffffff;
         margin-left: 500px;
+        text-align: center;
+        display: block;
+        width: auto;
         font-weight: bolder;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     button{
         position: absolute;
         color: white;
-        margin-top: 470px;
+        margin-top: 455px;
         background-image: url('${ArrowWhite}');
         background-repeat: no-repeat;
         background-size: 30px 30px;
         background-position: 85% 50%;
         background-color: black;
-        margin-left: 865px;
+        margin-left: 915px;
         width: 200px;
         height: 60px;
         border: 3px solid #ffffff;
