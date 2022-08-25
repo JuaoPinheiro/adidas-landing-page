@@ -820,7 +820,7 @@ export const Colabs = styled.div`
     width: 100vw;
     min-width: 1920px;
     height: 300px;
-    margin-top: 2385px;
+    margin-top: 2546px;
     background: black;
     color: white;
     white-space: nowrap; 
