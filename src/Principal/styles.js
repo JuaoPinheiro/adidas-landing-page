@@ -398,7 +398,7 @@ export const ContainerBeach = styled.div`
         position: absolute;
         margin-top: 350px;
         color: #ffffff;
-        margin-left: 500px;
+        margin-left: 480px;
         text-align: center;
         display: block;
         width: auto;
@@ -415,7 +415,7 @@ export const ContainerBeach = styled.div`
         background-size: 30px 30px;
         background-position: 85% 50%;
         background-color: black;
-        margin-left: 915px;
+        margin-left: 870px;
         width: 200px;
         height: 60px;
         border: 3px solid #ffffff;
