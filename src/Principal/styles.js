@@ -12,6 +12,7 @@ import { FiTruck } from "react-icons/fi";
 
 
 export const Container = styled.div`
+   
 `
 
 export const Headerzinho = styled.div`
@@ -59,6 +60,8 @@ export const Header = styled.div`
        display: flex;
        gap: 30px;
        width: auto;
+       transform: scale(0.99);
+        transform-origin: 0 0;
         img{
             width: 80px;
             height: 80px;
@@ -380,6 +383,7 @@ export const DivOz = styled.div`
 `
 
 export const ContainerBeach = styled.div`
+    
     white-space: nowrap;  
     width: 100vw;
     min-width: 1920px;
@@ -388,6 +392,7 @@ export const ContainerBeach = styled.div`
         min-width: 100%;
         margin-top: 200px;
         width: 1920px;
+        
     }
 
     h1{
@@ -435,7 +440,7 @@ export const Shoes = styled.div`
     min-width: 100%;
 
      h1{
-        margin-top: 1000px;
+        margin-top: 800px;
         margin-bottom: 25px;
     }
 `
@@ -629,7 +634,7 @@ export const SectionLuva = styled.div`
 
 export const ContainerPopular = styled.div`
     margin-top: 1250px;
-    margin-left: 480px;
+    margin-left: 440px;
     white-space: nowrap; 
     margin-bottom: 100px;
     width: auto;
@@ -708,7 +713,7 @@ export const ShoeWhite = styled.div`
      img{
         position: absolute;
         width: auto;
-        min-width: 100%;
+        min-width: 100%
     }
 
     h1{
@@ -800,7 +805,7 @@ export const Manchester = styled.div`
 `
 
 export const ImageManchester = styled.img`
-         position: absolute;
+        position: absolute;
         width: auto;
         min-width: 100%;
         margin-top: 840px;
@@ -816,14 +821,14 @@ export const Colabs = styled.div`
     width: 100vw;
     min-width: 1920px;
     height: 300px;
-    margin-top: 2535px;
+    margin-top: 2385px;
     background: black;
     color: white;
     white-space: nowrap; 
+    text-align: center;
 
     h3{
         padding-top: 100px;
-        text-align: center;
         white-space: nowrap; 
     }
 `
@@ -1196,7 +1201,7 @@ export const Finish = styled.div`
 
     p{
         display: block;
-        margin-left: 100px;
+        margin-left: 90px;
         margin-top: 30px;
         color: #c8cbcc;
         font-size: 12px;

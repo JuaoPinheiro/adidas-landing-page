@@ -5,7 +5,6 @@ export default createGlobalStyle`
     *{
         margin: 0;
         overflow-x: hidden;
-        zoom: 1;
         padding: 0;
         box-sizing: border-box;
         font-family: 'Lato', sans-serif;
