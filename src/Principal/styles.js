@@ -439,7 +439,7 @@ export const Shoes = styled.div`
     min-width: 100%;
 
      h1{
-        margin-top: 970px;
+        margin-top: 990px;
         margin-bottom: 25px;
     }
 `
