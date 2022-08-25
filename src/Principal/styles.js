@@ -245,7 +245,7 @@ export const Section2 = styled.div`
 `
 
 export const Tendences = styled.div`
-    margin-left: 60px;
+    margin-left: 80px;
     padding-top: 100px;
     h1{
         margin-top: 1750px;
@@ -394,7 +394,7 @@ export const ContainerBeach = styled.div`
         margin-top: 300px;
         text-align: center;
         color: #ffffff;
-        margin-left: 550px;
+        margin-left: 500px;
         font-weight: bolder;
         font-size: 40px;
     }
@@ -408,7 +408,7 @@ export const ContainerBeach = styled.div`
         background-size: 30px 30px;
         background-position: 85% 50%;
         background-color: black;
-        margin-left: 915px;
+        margin-left: 865px;
         width: 200px;
         height: 60px;
         border: 3px solid #ffffff;
@@ -429,7 +429,7 @@ export const ContainerBeach = styled.div`
     
 `
 export const Shoes = styled.div`
-    margin-left: 65px;
+    margin-left: 80px;
     width: auto;
     min-width: 100%;
 
@@ -654,7 +654,7 @@ export const Button = styled.button`
 
     `
 export const SectionCategory = styled.div`
-    margin-left: 55px;
+    margin-left: 80px;
     white-space: nowrap; 
     img{
         width: 370px;
@@ -665,7 +665,7 @@ export const SectionCategory = styled.div`
 export const TextCategory = styled.div``
 export const H3shoe = styled.h3`
        position: absolute;
-       margin-left: 110px;
+       margin-left: 145px;
        cursor: pointer;
 
        &:hover{
@@ -674,7 +674,7 @@ export const H3shoe = styled.h3`
 `
 export const H3corta = styled.h3`
         position: absolute;
-        margin-left: 535px;
+        margin-left: 555px;
         cursor: pointer;
 
         &:hover{
@@ -683,7 +683,7 @@ export const H3corta = styled.h3`
 `
 export const H3fla = styled.h3`
         position: absolute;
-        margin-left: 948px;
+        margin-left: 978px;
         cursor: pointer;
 
         &:hover{
@@ -693,7 +693,7 @@ export const H3fla = styled.h3`
 `
 export const H3poche = styled.h3`
         position: absolute;
-        margin-left: 1368px;
+        margin-left: 1395px;
         cursor: pointer;
 
         &:hover{
@@ -883,7 +883,7 @@ export const BGPharrel = styled.img`
 `
 export const TendencesFinish = styled.div`
     margin-top: 100px;
-    margin-left: 65px;
+    margin-left: 80px;
 `
 export const DivFinish = styled.div`
     white-space: nowrap;
